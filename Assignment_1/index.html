@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+     crossorigin="anonymous">
+     <link rel="stylesheet"href="style.css">
+    
+  
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class ="mx-auto mt-5" style="max-width:700px;">
+            <div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="NEW TASK" aria-label="Recipient's username" id="username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="adduser">Add Task</button>
+                  </div>
+                  
+            </div>
+        </div>
+            <div class="display">
+                <table class="table table-bordered">
+                  
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">TASK to-do</th>
+                        <th scope="col">Action </th>
+                       
+                      </tr>
+                    </thead>
+                    <tbody id="records">
+                      <!-- <tr>
+                        <th scope="row">1</th>
+                        <td>Sakshi khule</td>
+                        <td>  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Edit</button>  
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Delete</button></td>
+                       
+                      </tr> -->
+                      
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
